@@ -1,7 +1,7 @@
 
 (function(window) {
     var hello = new Object();
-    var speakWord = "Hello,";
+    var speakWord = "Hello";
     hello.speak = function(name) {
         console.log(speakWord + " " + name);
     };
